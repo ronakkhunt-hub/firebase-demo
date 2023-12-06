@@ -1,0 +1,11 @@
+export const GET_POST = "GET_POST";
+export const GET_POST_SUCCESS = "GET_POST_SUCCESS";
+
+export const CREATE_POST = "CREATE_POST";
+export const CREATE_POST_SUCCESS = "CREATE_POST_SUCCESS";
+
+export const UPDATE_POST = "UPDATE_POST";
+export const UPDATE_POST_SUCCESS = "UPDATE_POST_SUCCESS";
+
+export const DELETE_POST = "DELETE_POST";
+export const DELETE_POST_SUCCESS = "DELETE_POST_SUCCESS";

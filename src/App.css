@@ -1,0 +1,113 @@
+.header {
+  width: 100%;
+  background: #eeeeee;
+  z-index: 1;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.navbar ul {
+  padding: 0 !important;
+  margin-bottom: 5px !important;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.navbar .left li {
+  margin: 0 5px;
+}
+
+.navbar .left li .links {
+  text-decoration: none;
+  color: #f2f2f2;
+  background: #666666;
+  padding: 3px 6px;
+  border-radius: 5px;
+}
+
+.navbar .left li img {
+  margin: 0 10px;
+  width: 100px;
+  height: 50px;
+}
+
+.navbar .right li {
+  margin: 0 5px;
+}
+
+.navbar .right li .links {
+  text-decoration: none;
+  color: #f2f2f2;
+  background: #666666;
+  padding: 3px 6px;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
+.navbar .right li img {
+  margin: 0 10px;
+  width: 100px;
+  height: 50px;
+}
+
+.homeContainer {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submitButton {
+  width: 100%;
+  background: #0052cc;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #666666;
+  border-radius: 10px;
+  margin: 50px;
+  padding: 40px;
+  width: 40%;
+}
+
+@media screen and (max-width: 360px) {
+  .formWrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 361px) and (max-width: 786px) {
+  .formWrapper {
+    width: 90%;
+  }
+}
+
+.googleLogin {
+  margin: 10px 0px;
+  position: relative;
+}
+
+.googleLogo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.googleButton {
+  text-align: center;
+  font-weight: 600;
+  color: #42526e;
+  background: #eeeeee !important;
+  width: 100%;
+  box-shadow: rgb(0 0 0 / 20%) 1px 1px 5px 0px;
+}
+
+.googleButton:hover {
+  background: none !important;
+  color: #42526e !important;
+}
